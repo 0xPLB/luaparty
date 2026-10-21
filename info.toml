@@ -1,0 +1,7 @@
+[script]
+name = "luaparty"
+version = "0.0.2"
+author = "pngmeow"
+url = "https://github.com/0xPLB/luaparty"
+binaries = ["lje-ffi"]
+dependencies = []
