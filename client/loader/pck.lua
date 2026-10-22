@@ -4,9 +4,9 @@ pck = {}
 pck.http_works = false
 pck.dir = lje.env.current_script_path():match("^(.*[\\/])")
 
--- required binary modules
+-- required lua stuff
 local required = {
-    "ffi"
+    "ffi", "occ"
 }
 
 local REMOTE_INFO_URL = "https://raw.githubusercontent.com/0xPLB/luaparty/refs/heads/main/info.toml"

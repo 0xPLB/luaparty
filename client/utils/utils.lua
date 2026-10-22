@@ -8,6 +8,14 @@ function utils.is_state_client()
     end
 end
 
+-- returns true if value is in the enum list
+function utils.in_enum(enum, value)
+    for _, v in ipairs(enum) do
+        if v == value then return true end
+    end
+    return false
+end
+
 -- MessageBoxA flags
 utils.MB = {
     OK = 0x0,

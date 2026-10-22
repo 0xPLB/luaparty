@@ -1,7 +1,11 @@
 [script]
 name = "luaparty"
-version = "0.0.2"
+version = "1.0.1-beta"
 author = "pngmeow"
 url = "https://github.com/0xPLB/luaparty"
 binaries = ["lje-ffi"]
-dependencies = ["yogwoggf.lje-http"]
+dependencies = [
+    "yogwoggf.lje-http",
+    "pngmeow.occ",
+    "Eyoko1.lje-util"
+]
